@@ -11,9 +11,9 @@ Remote Controller app using gaze for electrical devices such as TV/lights
 ### Quickstart
 #### Cocoapods
 ```bash
-$ git clone https://github.com/IsseTommy/GazeRemote
-$ cd GazeRemote
-$ pod install
+git clone https://github.com/IsseTommy/GazeRemote
+cd GazeRemote
+pod install
 ```
 
 ## Libraries
