@@ -10,7 +10,7 @@
 		653A3151266DDB33008C0CC4 /* FaceDetectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A3150266DDB33008C0CC4 /* FaceDetectorViewController.swift */; };
 		656A0593265F5A1D00CA4964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A0592265F5A1D00CA4964 /* AppDelegate.swift */; };
 		656A0595265F5A1D00CA4964 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A0594265F5A1D00CA4964 /* SceneDelegate.swift */; };
-		656A0597265F5A1D00CA4964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A0596265F5A1D00CA4964 /* ViewController.swift */; };
+		656A0597265F5A1D00CA4964 /* RemoteControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A0596265F5A1D00CA4964 /* RemoteControlViewController.swift */; };
 		656A059A265F5A1D00CA4964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656A0598265F5A1D00CA4964 /* Main.storyboard */; };
 		656A059C265F5A1F00CA4964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656A059B265F5A1F00CA4964 /* Assets.xcassets */; };
 		656A059F265F5A1F00CA4964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656A059D265F5A1F00CA4964 /* LaunchScreen.storyboard */; };
@@ -25,7 +25,7 @@
 		656A058F265F5A1D00CA4964 /* GazeRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GazeRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656A0592265F5A1D00CA4964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		656A0594265F5A1D00CA4964 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		656A0596265F5A1D00CA4964 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		656A0596265F5A1D00CA4964 /* RemoteControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControlViewController.swift; sourceTree = "<group>"; };
 		656A0599265F5A1D00CA4964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		656A059B265F5A1F00CA4964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		656A059E265F5A1F00CA4964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			children = (
 				656A0592265F5A1D00CA4964 /* AppDelegate.swift */,
 				656A0594265F5A1D00CA4964 /* SceneDelegate.swift */,
-				656A0596265F5A1D00CA4964 /* ViewController.swift */,
+				656A0596265F5A1D00CA4964 /* RemoteControlViewController.swift */,
 				656A0598265F5A1D00CA4964 /* Main.storyboard */,
 				656A059B265F5A1F00CA4964 /* Assets.xcassets */,
 				656A059D265F5A1F00CA4964 /* LaunchScreen.storyboard */,
@@ -238,7 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				656A0597265F5A1D00CA4964 /* ViewController.swift in Sources */,
+				656A0597265F5A1D00CA4964 /* RemoteControlViewController.swift in Sources */,
 				656A0593265F5A1D00CA4964 /* AppDelegate.swift in Sources */,
 				653A3151266DDB33008C0CC4 /* FaceDetectorViewController.swift in Sources */,
 				656A0595265F5A1D00CA4964 /* SceneDelegate.swift in Sources */,

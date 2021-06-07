@@ -8,7 +8,7 @@
 import UIKit
 import Alamofire
 
-class ViewController: UIViewController {
+class RemoteControlViewController: UIViewController {
     let baseUrl = "https://api.nature.global/1/"
     var token: String = ""
     let buttonIds: [String:String] = [
