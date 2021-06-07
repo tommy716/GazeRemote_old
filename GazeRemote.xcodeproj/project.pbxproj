@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		653A3151266DDB33008C0CC4 /* FaceDetectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A3150266DDB33008C0CC4 /* FaceDetectorViewController.swift */; };
+		656A0593265F5A1D00CA4964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A0592265F5A1D00CA4964 /* AppDelegate.swift */; };
+		656A0595265F5A1D00CA4964 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A0594265F5A1D00CA4964 /* SceneDelegate.swift */; };
+		656A0597265F5A1D00CA4964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A0596265F5A1D00CA4964 /* ViewController.swift */; };
+		656A059A265F5A1D00CA4964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656A0598265F5A1D00CA4964 /* Main.storyboard */; };
+		656A059C265F5A1F00CA4964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656A059B265F5A1F00CA4964 /* Assets.xcassets */; };
+		656A059F265F5A1F00CA4964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656A059D265F5A1F00CA4964 /* LaunchScreen.storyboard */; };
+		656A05A8265F5AD300CA4964 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 656A05A7265F5AD300CA4964 /* Alamofire */; };
+		656A05AA265F628700CA4964 /* token.plist in Resources */ = {isa = PBXBuildFile; fileRef = 656A05A9265F628700CA4964 /* token.plist */; };
+		DD915EA9678B68D0281B85FD /* Pods_GazeRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E196C8A809914403A0395EE1 /* Pods_GazeRemote.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AF9E9190073626DB460E167 /* Pods-GazeRemote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GazeRemote.debug.xcconfig"; path = "Target Support Files/Pods-GazeRemote/Pods-GazeRemote.debug.xcconfig"; sourceTree = "<group>"; };
+		653A3150266DDB33008C0CC4 /* FaceDetectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectorViewController.swift; sourceTree = "<group>"; };
+		656A058F265F5A1D00CA4964 /* GazeRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GazeRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		656A0592265F5A1D00CA4964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		656A0594265F5A1D00CA4964 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		656A0596265F5A1D00CA4964 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		656A0599265F5A1D00CA4964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		656A059B265F5A1F00CA4964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		656A059E265F5A1F00CA4964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		656A05A0265F5A1F00CA4964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656A05A9265F628700CA4964 /* token.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = token.plist; sourceTree = "<group>"; };
+		808437B302B090EE2D832F67 /* Pods-GazeRemote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GazeRemote.release.xcconfig"; path = "Target Support Files/Pods-GazeRemote/Pods-GazeRemote.release.xcconfig"; sourceTree = "<group>"; };
+		E196C8A809914403A0395EE1 /* Pods_GazeRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GazeRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		656A058C265F5A1D00CA4964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656A05A8265F5AD300CA4964 /* Alamofire in Frameworks */,
+				DD915EA9678B68D0281B85FD /* Pods_GazeRemote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		637DFD1FEE4D0B3EABDF5EAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AF9E9190073626DB460E167 /* Pods-GazeRemote.debug.xcconfig */,
+				808437B302B090EE2D832F67 /* Pods-GazeRemote.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		656A0586265F5A1D00CA4964 = {
+			isa = PBXGroup;
+			children = (
+				656A0591265F5A1D00CA4964 /* GazeRemote */,
+				656A0590265F5A1D00CA4964 /* Products */,
+				637DFD1FEE4D0B3EABDF5EAD /* Pods */,
+				D42C142608412393D37DDC72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		656A0590265F5A1D00CA4964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				656A058F265F5A1D00CA4964 /* GazeRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		656A0591265F5A1D00CA4964 /* GazeRemote */ = {
+			isa = PBXGroup;
+			children = (
+				656A0592265F5A1D00CA4964 /* AppDelegate.swift */,
+				656A0594265F5A1D00CA4964 /* SceneDelegate.swift */,
+				656A0596265F5A1D00CA4964 /* ViewController.swift */,
+				656A0598265F5A1D00CA4964 /* Main.storyboard */,
+				656A059B265F5A1F00CA4964 /* Assets.xcassets */,
+				656A059D265F5A1F00CA4964 /* LaunchScreen.storyboard */,
+				656A05A0265F5A1F00CA4964 /* Info.plist */,
+				656A05A9265F628700CA4964 /* token.plist */,
+				653A3150266DDB33008C0CC4 /* FaceDetectorViewController.swift */,
+			);
+			path = GazeRemote;
+			sourceTree = "<group>";
+		};
+		D42C142608412393D37DDC72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E196C8A809914403A0395EE1 /* Pods_GazeRemote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		656A058E265F5A1D00CA4964 /* GazeRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656A05A3265F5A1F00CA4964 /* Build configuration list for PBXNativeTarget "GazeRemote" */;
+			buildPhases = (
+				0023D3AE729D578616C8AE78 /* [CP] Check Pods Manifest.lock */,
+				656A058B265F5A1D00CA4964 /* Sources */,
+				656A058C265F5A1D00CA4964 /* Frameworks */,
+				656A058D265F5A1D00CA4964 /* Resources */,
+				47BBCC407790CB48263DF8B2 /* [CP] Embed Pods Frameworks */,
+				CEF0B23DB15E5961AD1C62A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GazeRemote;
+			packageProductDependencies = (
+				656A05A7265F5AD300CA4964 /* Alamofire */,
+			);
+			productName = GazeRemote;
+			productReference = 656A058F265F5A1D00CA4964 /* GazeRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		656A0587265F5A1D00CA4964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					656A058E265F5A1D00CA4964 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 656A058A265F5A1D00CA4964 /* Build configuration list for PBXProject "GazeRemote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 656A0586265F5A1D00CA4964;
+			packageReferences = (
+				656A05A6265F5AD300CA4964 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 656A0590265F5A1D00CA4964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				656A058E265F5A1D00CA4964 /* GazeRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		656A058D265F5A1D00CA4964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656A059F265F5A1F00CA4964 /* LaunchScreen.storyboard in Resources */,
+				656A059C265F5A1F00CA4964 /* Assets.xcassets in Resources */,
+				656A05AA265F628700CA4964 /* token.plist in Resources */,
+				656A059A265F5A1D00CA4964 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0023D3AE729D578616C8AE78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GazeRemote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47BBCC407790CB48263DF8B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GazeRemote/Pods-GazeRemote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GazeRemote/Pods-GazeRemote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GazeRemote/Pods-GazeRemote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF0B23DB15E5961AD1C62A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GazeRemote/Pods-GazeRemote-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GazeRemote/Pods-GazeRemote-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GazeRemote/Pods-GazeRemote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		656A058B265F5A1D00CA4964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656A0597265F5A1D00CA4964 /* ViewController.swift in Sources */,
+				656A0593265F5A1D00CA4964 /* AppDelegate.swift in Sources */,
+				653A3151266DDB33008C0CC4 /* FaceDetectorViewController.swift in Sources */,
+				656A0595265F5A1D00CA4964 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		656A0598265F5A1D00CA4964 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				656A0599265F5A1D00CA4964 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		656A059D265F5A1F00CA4964 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				656A059E265F5A1F00CA4964 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		656A05A1265F5A1F00CA4964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		656A05A2265F5A1F00CA4964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		656A05A4265F5A1F00CA4964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF9E9190073626DB460E167 /* Pods-GazeRemote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P44D5B93M;
+				INFOPLIST_FILE = GazeRemote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tommy.GazeRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		656A05A5265F5A1F00CA4964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808437B302B090EE2D832F67 /* Pods-GazeRemote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P44D5B93M;
+				INFOPLIST_FILE = GazeRemote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tommy.GazeRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		656A058A265F5A1D00CA4964 /* Build configuration list for PBXProject "GazeRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656A05A1265F5A1F00CA4964 /* Debug */,
+				656A05A2265F5A1F00CA4964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656A05A3265F5A1F00CA4964 /* Build configuration list for PBXNativeTarget "GazeRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656A05A4265F5A1F00CA4964 /* Debug */,
+				656A05A5265F5A1F00CA4964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		656A05A6265F5AD300CA4964 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		656A05A7265F5AD300CA4964 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 656A05A6265F5AD300CA4964 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 656A0587265F5A1D00CA4964 /* Project object */;
+}
