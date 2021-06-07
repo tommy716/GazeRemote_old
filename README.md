@@ -1,7 +1,7 @@
 # GazeRemote
+Research Project at Ritsumeikan University e-Society Lab
 ## About
 Remote Controller app using gaze for electrical devices such as TV/lights
-Research Project at Ritsumeikan University e-Society Lab
 
 ## Installation 
 ### Requirement
