@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65185A7B2671BF2B0029F997 /* GazeMouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65185A7A2671BF2B0029F997 /* GazeMouseViewController.swift */; };
 		653A3151266DDB33008C0CC4 /* FaceDetectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A3150266DDB33008C0CC4 /* FaceDetectorViewController.swift */; };
 		656A0593265F5A1D00CA4964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A0592265F5A1D00CA4964 /* AppDelegate.swift */; };
 		656A0595265F5A1D00CA4964 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A0594265F5A1D00CA4964 /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		2AF9E9190073626DB460E167 /* Pods-GazeRemote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GazeRemote.debug.xcconfig"; path = "Target Support Files/Pods-GazeRemote/Pods-GazeRemote.debug.xcconfig"; sourceTree = "<group>"; };
+		65185A7A2671BF2B0029F997 /* GazeMouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GazeMouseViewController.swift; sourceTree = "<group>"; };
 		653A3150266DDB33008C0CC4 /* FaceDetectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectorViewController.swift; sourceTree = "<group>"; };
 		656A058F265F5A1D00CA4964 /* GazeRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GazeRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656A0592265F5A1D00CA4964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				656A05A0265F5A1F00CA4964 /* Info.plist */,
 				656A05A9265F628700CA4964 /* token.plist */,
 				653A3150266DDB33008C0CC4 /* FaceDetectorViewController.swift */,
+				65185A7A2671BF2B0029F997 /* GazeMouseViewController.swift */,
 			);
 			path = GazeRemote;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			files = (
 				656A0597265F5A1D00CA4964 /* RemoteControlViewController.swift in Sources */,
 				656A0593265F5A1D00CA4964 /* AppDelegate.swift in Sources */,
+				65185A7B2671BF2B0029F997 /* GazeMouseViewController.swift in Sources */,
 				653A3151266DDB33008C0CC4 /* FaceDetectorViewController.swift in Sources */,
 				656A0595265F5A1D00CA4964 /* SceneDelegate.swift in Sources */,
 			);

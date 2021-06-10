@@ -159,6 +159,22 @@
             </objects>
             <point key="canvasLocation" x="1867" y="88"/>
         </scene>
+        <!--GazeMouse-->
+        <scene sceneID="Neg-JZ-uca">
+            <objects>
+                <viewController id="dZh-hl-I2J" customClass="GazeMouseViewController" customModule="GazeRemote" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wqn-Q7-2KY">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bvF-hG-mUe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="GazeMouse" id="Dkg-Aq-BWh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kiB-Sa-g72" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1867" y="807"/>
+        </scene>
         <!--Home-->
         <scene sceneID="xFU-rb-2aT">
             <objects>
@@ -168,7 +184,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="Uac-2q-tFV">
-                                <rect key="frame" x="508" y="362" width="350" height="300"/>
+                                <rect key="frame" x="508" y="262" width="350" height="500"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4B-LR-htZ">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="100"/>
@@ -196,6 +212,20 @@
                                         </state>
                                         <connections>
                                             <segue destination="R1P-cD-tuJ" kind="show" id="fki-mv-3LX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DfO-aw-hF5">
+                                        <rect key="frame" x="0.0" y="400" width="350" height="100"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="5Tc-xi-aMx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <state key="normal" title="GazeMouse">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="dZh-hl-I2J" kind="show" id="g9s-sN-x6u"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -242,6 +272,9 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
